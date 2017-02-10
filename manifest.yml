@@ -1,0 +1,10 @@
+applications:
+- path: mendixBoilerplate.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: 1440i-mndx1
+  host: 1440i
+  disk_quota: 1024M
+  services:
+  - 1440i-mndx1-cleardb
